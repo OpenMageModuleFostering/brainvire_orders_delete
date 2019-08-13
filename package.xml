@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package>
+    <name>Brainvire_Orders_Delete</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Brainvire order delete extension helps to delete orders from magento admin those created while development or testing.</summary>
+    <description>&lt;p&gt;Brainvire's Order Delete Extension appears on a admin panel action dropdown.&lt;/p&gt;&#xD;
+&lt;p&gt;In  Magento, you can't delete orders. This extension allows to delete selected orders&lt;/p&gt;&#xD;
+&#xD;
+&lt;h1&gt;Installation Steps&lt;/h1&gt;&#xD;
+1. Disable Magento Compilation from System-&gt;Tools-&gt;Compilation and Flush Magento Cache from System-&gt;Cache Management &gt; Click button Flush Magneto Cache&#xD;
+2. Install the extension through Magneto Connect.&#xD;
+3. Go to System &gt; Cache Management &gt; Click button Flush Magneto Cache.&#xD;
+4. Logout out and re-login.&#xD;
+&#xD;
+&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;Step 1: Disable Magento Compilation from System-&gt;Tools-&gt;Compilation and Flush Magento Cache from System-&gt;Cache Management &gt; Click button Flush Magneto Cache&lt;/li&gt;&#xD;
+&lt;li&gt;Step 2: Install the extension through Magneto Connect&lt;/li&gt;&#xD;
+&lt;li&gt;Step 3: Go to System &gt; Cache Management &gt; Click button Flush Magneto Cache&lt;/li&gt;&#xD;
+&lt;li&gt;Step 4: Logout out and re-login&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&#xD;
+&lt;p&gt;That's it! You'll be all set to delete order from magento admin panel!&lt;/p&gt;&#xD;
+&lt;p&gt;Warning: It's  preferable to delete only the testing orders during the development of your local website.You take risks if you delete Orders directly in your Website.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h1&gt;Feature List&lt;/h1&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Allow to delete selected mutliple orders from magento admin panel&lt;/li&gt;&#xD;
+&lt;/ul&gt;</description>
+    <notes>Brainvire Order Delete Extension Release V1.0.1</notes>
+    <authors><author><name>Brainvire Infotech Private Limited</name><user>brainvire</user><email>magento@brainvire.com</email></author></authors>
+    <date>2013-01-25</date>
+    <time>15:57:52</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Brainvire_DeleteOrder.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>100.0.0</max></php></required></dependencies>
+</package>

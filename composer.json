@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Brainvire_Orders_Delete",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Brainvire order delete extension helps to delete orders from magento admin those created while development or testing.",
+    "authors": [
+    {
+        "name": "Brainvire Infotech Private Limited",
+        "email": "magento@brainvire.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
